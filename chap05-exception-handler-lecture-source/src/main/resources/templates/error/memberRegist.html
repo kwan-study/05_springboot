@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 align="center">저희 회원 빈자리가 더 이상 없습니다!</h1>
+
+<!--  핸들링 되어 넘어온 페이지는 setExceptionAttribute로 작성한 키 값으로 예외 타입과 타입 메시지를 추출 할 수 있다.  -->
+
+    <h1 align="center" th:text="${exceptionMessage.message}"></h1>
+</body>
+</html>
